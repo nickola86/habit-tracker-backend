@@ -1,0 +1,9 @@
+{
+  "name": "habit-tracker-backend",
+  "version": "1.0.0",
+  "description": "back end services for habit tracker app",
+  "main": "index.js",
+  "repository": "https://github.com/nickola86/habit-tracker-backend.git",
+  "author": "nicola di trani",
+  "license": "MIT"
+}
