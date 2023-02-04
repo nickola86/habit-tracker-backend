@@ -31,6 +31,10 @@ const isAuthenticated = ({username,password}) => {
     return usersdb.users.findIndex(user => user.username === username && user.password === password ) !== -1
 }
 
+const getUser = ({username,password}) => {
+    return usersdb.users.find(user => user.username === username && user.password === password )
+}
+
 server.post('/auth/login', (req,res)=>{
     const {username, password} = req.body
     if(isAuthenticated({username,password})===false){
@@ -39,8 +43,19 @@ server.post('/auth/login', (req,res)=>{
         res.status(status).json({status,message})
         return
     }
-    const access_token = createToken({username,password})
+    const access_token = createToken(getUser({username,password}))
     res.status(200).json({access_token})
+})
+server.get('/auth/user/:bearer', (req,res)=>{
+    try{
+        const access_token = req.params.bearer
+        const userJwt = jwt.decode(access_token)
+        res.status(200).json(userJwt)
+    }catch (err){
+        const status = 401
+        const message = 'invalid token'
+        res.status(status).json({status,message})
+    }
 })
 
 server.use(/^(?!\/auth).*$/,(req,res,next)=>{
