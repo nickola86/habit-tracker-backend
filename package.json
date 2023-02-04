@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "https://github.com/nickola86/habit-tracker-backend.git",
   "author": "nicola di trani",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.17.1"
+  }
 }
