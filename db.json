@@ -7,6 +7,9 @@
     { "id": 1, "body": "some comment", "postId": 1 }
   ],
   "profile": { "name": "typicode" },
+  "badges": [{"icon": "🚰","title": "Bere acqua","description":"Hai bevuto 2 litri d'acqua al giorno per 10 giorni di fila"},
+    {"icon":"🏃","title": "Correre","description":"Hai corso per 5 giorni di fila"},
+    {"icon": "🍒","title": "Mangiare la frutta","description":"Sei quasi un fruttariano doc!"}],
   "habits" : [
       {
         "id": 1,
