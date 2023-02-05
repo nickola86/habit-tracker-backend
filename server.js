@@ -53,7 +53,7 @@ server.get('/auth/user/:bearer', (req,res)=>{
         delete userJwt.password
         delete userJwt.exp
         delete userJwt.iat
-        res.status(200).json({...userJwt, isUserLoggedIn:true})
+        res.status(200).json({...userJwt, bearer: access_token, isUserLoggedIn:true})
     }catch (err){
         const status = 401
         const message = 'invalid token'

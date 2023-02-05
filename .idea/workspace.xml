@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa3e30b5-c6f4-4b8a-8b5a-ba5e64edd6d7" name="Changes" comment="api getuser from jwt">
+    <list default="true" id="fa3e30b5-c6f4-4b8a-8b5a-ba5e64edd6d7" name="Changes" comment="api getuser from jwt pt2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +67,7 @@
       <updated>1675503046624</updated>
       <workItem from="1675503048017" duration="393000" />
       <workItem from="1675503610484" duration="14211000" />
-      <workItem from="1675529162034" duration="6347000" />
+      <workItem from="1675529162034" duration="11080000" />
     </task>
     <task id="LOCAL-00001" summary="add notemodules to gitignore">
       <created>1675503092560</created>
@@ -110,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675534473557</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="api getuser from jwt pt2">
+      <created>1675591390281</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1675591390281</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +141,7 @@
     <MESSAGE value="git ignore" />
     <MESSAGE value="config" />
     <MESSAGE value="api getuser from jwt" />
-    <option name="LAST_COMMIT_MESSAGE" value="api getuser from jwt" />
+    <MESSAGE value="api getuser from jwt pt2" />
+    <option name="LAST_COMMIT_MESSAGE" value="api getuser from jwt pt2" />
   </component>
 </project>
