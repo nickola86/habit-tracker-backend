@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa3e30b5-c6f4-4b8a-8b5a-ba5e64edd6d7" name="Changes" comment="setup habits api from server">
+    <list default="true" id="fa3e30b5-c6f4-4b8a-8b5a-ba5e64edd6d7" name="Changes" comment="get badges from backend">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/users.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +66,7 @@
       <updated>1675503046624</updated>
       <workItem from="1675503048017" duration="393000" />
       <workItem from="1675503610484" duration="14211000" />
-      <workItem from="1675529162034" duration="15824000" />
+      <workItem from="1675529162034" duration="20520000" />
     </task>
     <task id="LOCAL-00001" summary="add notemodules to gitignore">
       <created>1675503092560</created>
@@ -125,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675597020471</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="get badges from backend">
+      <created>1675611775292</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1675611775292</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +156,7 @@
     <MESSAGE value="api getuser from jwt" />
     <MESSAGE value="api getuser from jwt pt2" />
     <MESSAGE value="setup habits api from server" />
-    <option name="LAST_COMMIT_MESSAGE" value="setup habits api from server" />
+    <MESSAGE value="get badges from backend" />
+    <option name="LAST_COMMIT_MESSAGE" value="get badges from backend" />
   </component>
 </project>

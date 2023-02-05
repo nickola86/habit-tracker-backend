@@ -7,6 +7,108 @@
     { "id": 1, "body": "some comment", "postId": 1 }
   ],
   "profile": { "name": "typicode" },
+  "charts": [
+    {
+      "userId": 1,
+      "title": "Andamento settimanale",
+      "type": "LineChart",
+      "data": [
+        {
+          "name": "29/01",
+          "bere acqua": 80,
+          "correre": 100,
+          "fare addominali": 50,
+          "mangiare la frutta": 80
+        },
+        {
+          "name": "30/01",
+          "bere acqua": 120,
+          "correre": 90,
+          "fare addominali": 30,
+          "mangiare la frutta": 40
+        },
+        {
+          "name": "31/01",
+          "bere acqua": 100,
+          "correre": 100,
+          "fare addominali": 60,
+          "mangiare la frutta": 50
+        },
+        {
+          "name": "01/02",
+          "bere acqua": 60,
+          "correre": 20,
+          "fare addominali": 40,
+          "mangiare la frutta": 70
+        },
+        {
+          "name": "02/02",
+          "bere acqua": 100,
+          "correre": 60,
+          "fare addominali": 30,
+          "mangiare la frutta": 100
+        },
+        {
+          "name": "03/02",
+          "bere acqua": 85,
+          "correre": 100,
+          "fare addominali": 70,
+          "mangiare la frutta": 90
+        },
+        {
+          "name": "04/02",
+          "bere acqua": 100,
+          "correre": 120,
+          "fare addominali": 30,
+          "mangiare la frutta": 20
+        },
+        {
+          "name": "05/02",
+          "bere acqua": 90,
+          "correre": 110,
+          "fare addominali": 40,
+          "mangiare la frutta": 100
+        },
+        {
+          "name": "06/02",
+          "bere acqua": 100,
+          "correre": 120,
+          "fare addominali": 80,
+          "mangiare la frutta": 100
+        }
+      ]
+    },{
+      "userId": 1,
+      "title": "Completamento obiettivi settimanali",
+      "type": "RadialBarChart",
+      "data": [
+        {
+          "name": "fare addominali",
+          "uv": 30.22,
+          "pv": 100,
+          "fill": "#db69cf"
+        },
+        {
+          "name": "mangiare la frutta",
+          "uv": 50.69,
+          "pv": 100,
+          "fill": "#cf8f5f"
+        },
+        {
+          "name": "correre",
+          "uv": 90.69,
+          "pv": 100,
+          "fill": "#8884d8"
+        },
+        {
+          "name": "bere acqua",
+          "uv": 86.47,
+          "pv": 100,
+          "fill": "#82ca9d"
+        }
+      ]
+    }
+  ],
   "badges": [{"icon": "🚰","title": "Bere acqua","description":"Hai bevuto 2 litri d'acqua al giorno per 10 giorni di fila"},
     {"icon":"🏃","title": "Correre","description":"Hai corso per 5 giorni di fila"},
     {"icon": "🍒","title": "Mangiare la frutta","description":"Sei quasi un fruttariano doc!"}],
