@@ -15,7 +15,7 @@ server.use(bodyParser.urlencoded({extended:true}))
 server.use(bodyParser.json())
 
 const SECRET_KEY = "AURORACOWORKING"
-const expiresIn = "30d"
+const expiresIn = "30d" // Spostare in una variabile d'ambiente
 
 const createToken = (payload) => {
     return jwt.sign(payload,SECRET_KEY,{expiresIn})
@@ -50,7 +50,10 @@ server.get('/auth/user/:bearer', (req,res)=>{
     try{
         const access_token = req.params.bearer
         const userJwt = jwt.decode(access_token)
-        res.status(200).json(userJwt)
+        delete userJwt.password
+        delete userJwt.exp
+        delete userJwt.iat
+        res.status(200).json({...userJwt, isUserLoggedIn:true})
     }catch (err){
         const status = 401
         const message = 'invalid token'
