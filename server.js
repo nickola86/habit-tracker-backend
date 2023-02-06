@@ -44,7 +44,10 @@ server.post('/auth/login', (req,res)=>{
         return
     }
     const access_token = createToken(getUser({username,password}))
-    res.status(200).json({access_token})
+    const userJwt = getUser({username,password})
+    userJwt.isUserLoggedIn = true
+    delete userJwt.password
+    res.status(200).json({user: userJwt, access_token})
 })
 server.get('/auth/user/:bearer', (req,res)=>{
     try{
