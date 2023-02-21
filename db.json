@@ -1,12 +1,4 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" },
-    { "id": 2, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" },
   "charts": [
     {
       "userId": 1,
@@ -77,7 +69,8 @@
           "mangiare la frutta": 100
         }
       ]
-    },{
+    },
+    {
       "userId": 1,
       "title": "Completamento obiettivi settimanali",
       "type": "RadialBarChart",
@@ -109,37 +102,81 @@
       ]
     }
   ],
-  "badges": [{"icon": "🚰","title": "Bere acqua","description":"Hai bevuto 2 litri d'acqua al giorno per 10 giorni di fila"},
-    {"icon":"🏃","title": "Correre","description":"Hai corso per 5 giorni di fila"},
-    {"icon": "🍒","title": "Mangiare la frutta","description":"Sei quasi un fruttariano doc!"}],
-  "habits" : [
-      {
-        "id": 1,
-        "userId": 1,
-        "title": "Correre",
-        "color": "#ff0000",
-        "icon": "🏃"
-      },
-      {
-        "id": 2,
-        "userId": 1,
-        "title": "Fare addominali",
-        "color": "#ff0000",
-        "icon": "🏋️‍♂️"
-      },
-      {
-        "id": 3,
-        "userId": 1,
-        "title": "Bere acqua",
-        "color": "#00ff00",
-        "icon": "🚰"
-      },
-      {
-        "id": 4,
-        "userId": 1,
-        "title": "Mangiare la frutta",
-        "color": "#00ff00",
-        "icon": "🍒"
-      }
-  ]
+  "badges": [
+    {
+      "icon": "🚰",
+      "title": "Bere acqua",
+      "description": "Hai bevuto 2 litri d'acqua al giorno per 10 giorni di fila"
+    },
+    {
+      "icon": "🏃",
+      "title": "Correre",
+      "description": "Hai corso per 5 giorni di fila"
+    },
+    {
+      "icon": "🍒",
+      "title": "Mangiare la frutta",
+      "description": "Sei quasi un fruttariano doc!"
+    }
+  ],
+  "habits": [
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "Correre",
+      "color": "#ff0000",
+      "icon": "🏃"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "title": "Fare addominali",
+      "color": "#ff0000",
+      "icon": "🏋️‍♂️"
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "title": "Bere acqua",
+      "color": "#00ff00",
+      "icon": "🚰"
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "title": "Mangiare la frutta",
+      "color": "#00ff00",
+      "icon": "🍒",
+      "startDate": "2023-02-01 00:00:00",
+      "startDate": "2023-02-28 23:59:59",
+      "reminderMessage": "Ricordati di mangiare la frutta!",
+      "category": "wellness",
+      "recurrency": "daily",
+      "goalBase": "weekly",
+      "calendar": [
+        {
+          "date": "2023-02-09 00:00:00",
+          "targetValue": "",
+          "actualValue": ""
+        }
+      ]
+    }
+  ],
+  "widgets": [
+    {
+      "id": 1,
+      "habitId":4,
+      "type": "w1",
+      "title": "Boh"
+    },
+    {
+      "id": 2,
+      "habitId":4,
+      "type": "w2",
+      "title": "Boh2"
+    }
+  ],
+  "categories": ["wellness" , "health" , "sport"],
+  "recurrencies": ["daily" , "weekly" , "monthly"],
+  "goalBases": ["daily" , "weekly" , "monthly"]
 }

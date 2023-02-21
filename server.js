@@ -28,7 +28,11 @@ const verifyToken = (token) => {
 }
 
 const isAuthenticated = ({username,password}) => {
-    return usersdb.users.findIndex(user => user.username === username && user.password === password ) !== -1
+    console.log("username, password",username,password)
+    console.log("usersdb.users",usersdb.users)
+    const userIndex = usersdb.users.findIndex(user => user.username === username && user.password === password )
+    console.log("userIndex",userIndex)
+    return userIndex !== -1
 }
 
 const getUser = ({username,password}) => {
@@ -45,9 +49,8 @@ server.post('/auth/login', (req,res)=>{
     }
     const access_token = createToken(getUser({username,password}))
     const userJwt = getUser({username,password})
-    userJwt.isUserLoggedIn = true
-    delete userJwt.password
-    res.status(200).json({user: userJwt, access_token})
+    const {password:p, ...otherProps} = userJwt;
+    res.status(200).json({user: otherProps, access_token})
 })
 server.get('/auth/user/:bearer', (req,res)=>{
     try{

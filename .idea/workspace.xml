@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa3e30b5-c6f4-4b8a-8b5a-ba5e64edd6d7" name="Changes" comment="get badges from backend">
+    <list default="true" id="fa3e30b5-c6f4-4b8a-8b5a-ba5e64edd6d7" name="Changes" comment="fix post review mauro e nicolas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +36,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "javascript.nodejs.core.library.configured.version": "18.13.0",
-    "javascript.nodejs.core.library.typings.version": "18.11.18",
+    "javascript.nodejs.core.library.typings.version": "18.13.0",
     "last_opened_file_path": "C:/Users/nicola.di.trani/repository/habit-tracker-backend/server.js",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -52,6 +55,19 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="habit-tracker-backend" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="habit-tracker-backend" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="habit-tracker-backend" type="NodeJSConfigurationType" path-to-js-file="server.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -67,6 +83,9 @@
       <workItem from="1675503048017" duration="393000" />
       <workItem from="1675503610484" duration="14211000" />
       <workItem from="1675529162034" duration="20520000" />
+      <workItem from="1675693362869" duration="152000" />
+      <workItem from="1675962226584" duration="5706000" />
+      <workItem from="1676988611890" duration="7379000" />
     </task>
     <task id="LOCAL-00001" summary="add notemodules to gitignore">
       <created>1675503092560</created>
@@ -158,5 +177,17 @@
     <MESSAGE value="setup habits api from server" />
     <MESSAGE value="get badges from backend" />
     <option name="LAST_COMMIT_MESSAGE" value="get badges from backend" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server.js</url>
+          <line>43</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
